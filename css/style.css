@@ -1,0 +1,22 @@
+ul {
+    padding: 10px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+.main {
+    max-width: 900px;
+    background: rgba(0, 128, 0, 0.145);
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    color: green;
+}
+
+.main:hover {
+    background: rgb(0, 128, 0);
+    color: white;
+}
