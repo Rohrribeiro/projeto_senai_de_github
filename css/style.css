@@ -8,16 +8,19 @@ li {
 }
 
 .main {
+    height: 100vh;
     max-width: 900px;
-    margin: 0 auto;
-    background: rgba(0, 128, 0, 0.145);
-    border: 2px solid green;
+    margin: 15px auto;
+    background: rgba(92, 92, 255, 0.145);
+    border: 15px solid rgb(92, 92, 255);
     border-radius: 10px;
     padding: 20px;
-    color: green;
+    color: rgb(92, 92, 255);
+    border-radius: 10px;
 }
 
 .main:active {
-    background: rgb(0, 128, 0);
+    border: 15px solid white;
+    background: rgb(92, 92, 255);
     color: white;
 }
